@@ -48,7 +48,7 @@
     margin-top: 16px;
 }
 
-.team-card__social--icon {
+.team-card__social-icon{
     width: 44px;
     height: 44px; 
 
@@ -57,7 +57,7 @@
     }
 } 
 
-.team-card__social--link {
+.team-card__social-link {
     @extend %align;
     @include size-radius (100%, 100%, 50%);
     fill: var(--icon-color);
